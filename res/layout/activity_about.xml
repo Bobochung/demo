@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launcher"
+    tools:context=".AboutActivity" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/activity_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="64dp"
+        android:text="团队成员：张帆远、武文斌、张航豪、范时远、钟波" 
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>

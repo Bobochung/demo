@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_navigate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_bg" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tx_toRelease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="2.0dip"
+            android:drawableTop="@drawable/add"
+            android:gravity="left"
+            android:text="发布"
+            android:textColor="@color/black"
+            android:textSize="13.5sp" />
+
+        <TextView
+            android:id="@+id/tx_All"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:drawablePadding="2.0dip"
+            android:drawableTop="@drawable/goods"
+            android:gravity="center"
+            android:text="所有商品"
+            android:textColor="@color/black"
+            android:textSize="13.5sp" />
+
+        <TextView
+            android:id="@+id/tx_MyInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_weight="0.14"
+            android:drawablePadding="2.0dip"
+            android:drawableTop="@drawable/user"
+            android:gravity="right"
+            android:text="我的"
+            android:textColor="@color/black"
+            android:textSize="13.5sp" />
+    </LinearLayout>
+
+</RelativeLayout>

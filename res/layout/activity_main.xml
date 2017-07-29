@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@drawable/layout_back"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/my_fragment"
+            android:name="com.lsnu.idle.campus_life.GuideFragment"
+            android:layout_width="match_parent"
+            android:layout_height="180.0dip" />
+
+        <GridView
+            android:id="@+id/sub_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:listSelector="@drawable/gv_back"
+            android:numColumns="3"
+            android:verticalSpacing="20.0dip" >
+        </GridView>
+
+    </LinearLayout>
+
+    <include layout="@layout/info_home"/>
+
+</LinearLayout>
